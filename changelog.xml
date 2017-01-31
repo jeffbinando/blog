@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.0.7" date="2016-03-02">
+        <change>Added - SoundCloud embed into post format audio</change>
+    </release>
+    <release version="1.0.6" date="2015-12-16">
+        <change>Added - into archives option Disable expanding and collapsing - do not show content (no content)</change>
+        <change>Bugfix - bad color of logo in some cases</change>
+        <change>Bugfix - buttons right and left on archives with more gallery formats</change>
+        <change>Removed - plugins, that do not fit into theme</change>
+    </release>
+    <release version="1.0.3" date="2015-11-12">
+        <change>Added Option for disable opening and collapsing post in archive view</change>
+        <change>Fixed Contact Form</change>
+        <change>Added page template full width</change>
+    </release>
+    <release version="1.0.2" date="2015-11-05">
+        <change>Bundled Fresh Performance Cache Plugin</change>
+    </release>
+    <release version="1.0.1" date="2015-11-05">
+        <change>Comment reply link fixed</change>
+    </release>
+    <release version="1.0.0" date="2015-11-02">
+        <change>Initial release</change>
+    </release>
+</changelog>
