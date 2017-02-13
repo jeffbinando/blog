@@ -6,3 +6,8 @@
 	width: 100%;
 	height: auto;
 }
+.arrow_overlay{
+	position:absolute;
+	bottom:-1px;
+	z-index:5;
+}

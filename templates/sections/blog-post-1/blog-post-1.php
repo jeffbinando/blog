@@ -24,18 +24,16 @@ if( is_page() ){
 			<div class="content-area__column <?php echo $container_inner_class; ?>">
 				<div class="post-block">
 					<div class="post-header">
-						<?php if( 'post' == get_post_type( get_the_ID() )){ ?>
-							<?php if( $query->get('show-date') ){ ?>
-								<div class="post-expander">
-									<div class="post-date">
-										<a href="<?php the_permalink(); ?>"><?php
-											echo get_the_date( $query->get('date-format') );
-										?></a>
-									</div>
+						<?php if( $query->get('show-categories') ){ ?>
+							<?php $cats = $postMetaGetter->getPostCategoriesHtml(); ?>
+							<?php if( ! empty( $cats ) ){ ?>
+								<div class="post-meta__block">
+									<!--<i class="icon-folder-alt"></i>-->
+									<?php
+										echo zero__wp_kses( $postMetaGetter->getPostCategoriesHtml() );
+									?>
 								</div>
 							<?php } ?>
-						<?php } else if( 'portfolio' == get_post_type( get_the_ID() )){ ?>
-
 						<?php } ?>
 						<h3 class="post-title post-expand-toggle">
 							<a href="<?php the_permalink(); ?>">
@@ -55,9 +53,21 @@ if( is_page() ){
 							<div class="post-expander">
 								<div class="post-meta">
 
+
+									<?php if( 'post' == get_post_type( get_the_ID() )){ ?>
+										<?php if( $query->get('show-date') ){ ?>
+												<div class="post-date" id="post_date">
+													<i class="icon-calendar"></i>
+													<a href="<?php the_permalink(); ?>"><?php
+														echo get_the_date( $query->get('date-format') );
+													?></a>
+												</div>
+										<?php } ?>
+									<?php } else if( 'portfolio' == get_post_type( get_the_ID() )){ ?>
+
+									<?php } ?>
 									<?php if( $query->get('show-author') ){ ?>
-										<div class="post-meta__block">
-											<div class="post-meta__author">
+											<div class="post-meta__author post-meta__block" id="post_cat">
 												<i class="icon-user"></i>
 												<?php
 													echo '<a href="'.esc_url( $postMetaGetter->getPostAuthorUrl() ).'">';
@@ -65,19 +75,9 @@ if( is_page() ){
 													echo '</a>';
 												?>
 											</div>
-										</div>
 									<?php } ?>
-									<?php if( $query->get('show-categories') ){ ?>
-										<?php $cats = $postMetaGetter->getPostCategoriesHtml(); ?>
-										<?php if( ! empty( $cats ) ){ ?>
-											<div class="post-meta__block">
-												<i class="icon-folder-alt"></i>
-												<?php
-													echo zero__wp_kses( $postMetaGetter->getPostCategoriesHtml() );
-												?>
-											</div>
-										<?php } ?>
-									<?php } ?>
+									<div class="clear"></div>
+
 									<?php if( $query->get('show-tags') ){ ?>
 										<?php $tags = $postMetaGetter->getPostTagsHtml(); ?>
 										<?php if( ! empty( $tags ) ){ ?>
@@ -109,6 +109,7 @@ if( is_page() ){
 									<?php } ?>
 
 								</div>
+								<div class="green_border"></div>
 							</div>
 						<?php } ?>
 					</div>

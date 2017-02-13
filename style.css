@@ -219,7 +219,7 @@ button[type=submit]:after 	{
 /* Chrome Hack - not a perfect circle */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-		    
+
 	button[type=submit]:after 	{
 		padding: 75% 0;
 	}
@@ -231,7 +231,7 @@ button[type=submit]:hover:after 	{
 	-moz-transform: translate(-50%, -50%) scale(1.2);
 	-ms-transform: translate(-50%, -50%) scale(1.2);
 	-o-transform: translate(-50%, -50%) scale(1.2);
-	transform: translate(-50%, -50%) scale(1.2);	
+	transform: translate(-50%, -50%) scale(1.2);
 }
 
 input[type=submit]:hover,
@@ -556,8 +556,6 @@ html.scroll-lock  {
 
 }
 
-
-
-
-
-
+.clear{
+	clear:both;
+}

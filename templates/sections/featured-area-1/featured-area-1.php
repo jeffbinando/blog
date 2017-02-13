@@ -63,7 +63,7 @@ if( ! empty( $featured_primary ) ){
 					require locate_template('templates/blocks/responsive-image-1/responsive-image-1.php');
 
 				?>
-
+				<img class="arrow_overlay" src="<?php bloginfo('template_directory'); ?>/images/arrow_overlay.png" />
 			</div>
 		</div>
 	<?php

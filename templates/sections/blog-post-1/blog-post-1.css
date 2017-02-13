@@ -51,7 +51,7 @@ body.single-portfolio .blog-post-1.ff-section .post-block 	{
 
 .blog-post-1.ff-section .post-date a:focus,
 .blog-post-1.ff-section .post-date a:hover 	{
-	color: #444445;
+	color: #00476f;
 	text-decoration: none;
 	outline: none;
 }
@@ -213,7 +213,7 @@ body.page .blog-post-1.ff-section .post-title 	{
 }
 
 .blog-post-1.ff-section .read-more-button:focus 	{
-	outline: none;		
+	outline: none;
 }
 
 .blog-post-1.ff-section .read-more-button i 	{
@@ -352,6 +352,31 @@ body.page .blog-post-1.ff-section .post-title 	{
 	transition: 0.325s all ease-out;
 }
 
+/* My Styles */
+
+#post_cat{
+	float:left;
+}
+#post_date{
+	float:left;
+	margin:0px 30px 0px 0px;
+}
+.blog-post-1.ff-section .post-title a{
+	color:#002e48;
+	font-size:46px;
+	font-weight:400;
+}
+.green_border{
+	background:#13faab;
+	width:100%;
+	height:1px;
+	margin:20px 0px 15px 0px;
+}
+.ff-category-meta{
+	color:#20c2f8;
+	font-weight:600;
+	font-family:'Lato', Helvetica, Arial, sans-serif;
+}
 /* ********** */
 /* RESPONSIVE */
 /* ********** */
@@ -522,7 +547,7 @@ body.page .blog-post-1.ff-section .post-title 	{
 	.post-share__inner a.post-share__network-link i 	{
 		font-size: 48px;
 	}
-	
+
 }
 
 @media (min-width: 1650px) {
@@ -533,5 +558,3 @@ body.page .blog-post-1.ff-section .post-title 	{
 	}
 
 }
-
-

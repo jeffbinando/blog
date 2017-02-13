@@ -4,13 +4,13 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #0d0d0d;
-	color: #707070;
+	background-color: #002e48;
+	color: #fff;
 	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
 	width: 210px;
-	
+
     -webkit-overflow-scrolling: touch;
 
 	-webkit-transform: translate3d(210px,0,0);
@@ -29,7 +29,7 @@ body.side-menu-closed .side-menu-1.ff-section 	{
 
 }
 
-body.side-menu-opened .side-menu-1.ff-section 	{	
+body.side-menu-opened .side-menu-1.ff-section 	{
 	-webkit-transform: translate3d(0%,0,0);
 	-moz-transform: translate3d(0%,0,0);
 	-ms-transform: translate3d(0%,0,0);
