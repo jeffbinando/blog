@@ -1,6 +1,6 @@
 					<footer class="footer">
 						<?php get_template_part('templates/sections/footer-1/footer-1') ?>
-						<?php get_template_part('templates/sections/footer-2/footer-2') ?>
+						<?php //get_template_part('templates/sections/footer-2/footer-2') ?>
 					</footer>
 					<a class="content-wrapper__overlay" href=""></a>
 				</div>
