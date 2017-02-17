@@ -329,6 +329,10 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 .side-menu-1.side-menu-1__style--white.ff-section .side-menu__social a:hover 	{
 	color: #444445;
 }
+/*My Styles*/
+.side-menu-1.ff-section .side-menu__social a{
+	color:#fff;
+}
 
 @media (min-width: 768px) {
 

@@ -11,3 +11,6 @@
 	bottom:-1px;
 	z-index:5;
 }
+.icon-link, .icon-share, .icon-bubble{
+	color:#13faab;
+}
