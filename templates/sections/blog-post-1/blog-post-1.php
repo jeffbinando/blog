@@ -130,6 +130,24 @@ if( is_page() ){
 
 						<?php } else { ?>
 
+							<div class="author_container">
+								<div class="ac_left">
+									<?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
+								</div>
+								<div class="ac_right">
+									<p><?php the_author_description(); ?></p>
+									<div class="post-meta__author post-meta__block">
+										<i class="icon-user"></i>
+										<?php
+											echo '<a class="author_learn_more" href="'.esc_url( $postMetaGetter->getPostAuthorUrl() ).'">';
+											echo 'Learn More';
+											echo '</a>';
+										?>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
 							<div class="post-footer clearfix">
 
 								<?php if( 'post' == get_post_type( get_the_ID() ) OR 'portfolio' == get_post_type( get_the_ID() ) ){ ?>
