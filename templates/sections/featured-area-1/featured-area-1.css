@@ -9,7 +9,7 @@
 .arrow_overlay{
 	position:absolute;
 	bottom:-1px;
-	z-index:5;
+	z-index:1;
 }
 .icon-link, .icon-share, .icon-bubble{
 	color:#13faab;
