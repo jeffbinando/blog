@@ -17,7 +17,6 @@ if( is_page() ){
 }
 
 ?>
-
 <div id="post-<?php the_ID(); ?>" <?php post_class("blog-post-1 ff-section"); ?>>
 	<div class="content-area__container <?php echo $container_class; ?>">
 		<div class="row">
@@ -124,30 +123,31 @@ if( is_page() ){
 							}
 						?></div>
 						<?php } ?>
-
-
+						<?php if( $post->post_type=='post' ){ ?>
+						<div class="author_container">
+							<div class="ac_left">
+								<?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
+							</div>
+							<div class="ac_right">
+								<p><?php the_author_description(); ?></p>
+								<div class="post-meta__author post-meta__block">
+									<i class="icon-user"></i>
+									<?php
+										echo '<a class="author_learn_more" href="'.esc_url( $postMetaGetter->getPostAuthorUrl() ).'">';
+										echo 'More Posts';
+										echo '</a>';
+									?>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						<?php }?>
 						<?php if ( 'portfolio' == get_post_type( get_the_ID() ) AND !$queryPortfolio->get('single_portfolio_post_footer') ) { ?>
 
 						<?php } else { ?>
 
-							<div class="author_container">
-								<div class="ac_left">
-									<?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
-								</div>
-								<div class="ac_right">
-									<p><?php the_author_description(); ?></p>
-									<div class="post-meta__author post-meta__block">
-										<i class="icon-user"></i>
-										<?php
-											echo '<a class="author_learn_more" href="'.esc_url( $postMetaGetter->getPostAuthorUrl() ).'">';
-											echo 'Learn More';
-											echo '</a>';
-										?>
-									</div>
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="clear"></div>
+
 							<div class="post-footer clearfix">
 
 								<?php if( 'post' == get_post_type( get_the_ID() ) OR 'portfolio' == get_post_type( get_the_ID() ) ){ ?>

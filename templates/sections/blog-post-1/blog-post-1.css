@@ -461,6 +461,10 @@ input[type=submit]:hover, button[type=submit]:hover{
 }
 .author_learn_more{
 	color:#20c2f8;
+	font-weight:bold;
+}
+.post-share__inner{
+	background:#20c2f8;
 }
 @media (max-width: 768px) {
 	.ac_left{

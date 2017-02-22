@@ -30,7 +30,7 @@ get_header(); ?>
 	$pagePortfolioPermalink = ob_get_clean();
 
 	/* GET PORTFOLIO DESCRIPTION */
-	
+
 	$fwc = ffContainer::getInstance();
 	$postMeta = $fwc->getDataStorageFactory()->createDataStorageWPPostMetas_NamespaceFacade( get_the_ID() );
 	$pageTitle = $postMeta->getOptionCoded( 'page_portfolio_bottom' );
