@@ -330,11 +330,15 @@
 	background:url(../../../images/logo_white.png) no-repeat;
 	width:142px;
 	height:48px;
+	margin:0px 0px 50px 0px;
 	display:block;
 	background-size:contain;
 }
 #footer_col{
 	float:left;
+}
+#footer_col p{
+		float:left;
 }
 #footer_right{
 	float:right;
@@ -345,6 +349,8 @@
 	height:24px;
 	display:block;
 	background-size:contain;
+	float:left;
+	margin:10px 13px 0px 0px;
 }
 #copyright{
 	margin:0px 0px 0px 10px;
@@ -353,6 +359,11 @@
 	width:95%;
 	padding:40px 0px 0px 0px;
 	margin:0 auto;
+}
+@media (max-width: 1023px) {
+	#footer_logo{
+		margin:0px 0px 30px 0px;
+	}
 }
 @media (max-width: 768px) {
 	#footer_top{
@@ -366,6 +377,15 @@
 	}
 	#footer_col{
 		float:none;
+	}
+	#footer_col p{
+		font-size:15px;
+	}
+	#map_icon{
+			margin:7px 13px 0px 0px;
+	}
+	#footer_logo{
+		margin:0px 0px 10px 0px;
 	}
 	.footer_link{
 		display:block;

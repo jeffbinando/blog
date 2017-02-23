@@ -19,11 +19,10 @@
 	    BackgroundCheck.init({
 		    images: backgroundCheckImages,
 		    targets: '.background-check, .swiper-pagination',
-		    threshold: 70,
+		    threshold: 100,
 		    windowEvents: true
 		});
 	}
 
 
 })(jQuery);
-

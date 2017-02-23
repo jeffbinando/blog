@@ -10,14 +10,15 @@
 .contact-form-1.ff-block .ff-email-has-been-sent,
 .contact-form-1.ff-block .ff-email-failed 	{
 	display: none;
-
-    background-color: #272728;
+    background-color: #20c2f8;
     color: #ffffff;
     font-size: 15px;
     margin: 34px 0;
     padding: 4px 17px;
 }
-
+input[type=submit]:hover, input[type=submit]:focus, button[type=submit]:hover, button[type=submit]:focus{
+	background-color:#20c2f8;
+}
 
 /* ********** */
 /* RESPONSIVE */
@@ -42,5 +43,5 @@
 	.contact-form-1.ff-block 	{
 		margin: 0 0 34px 0;
 	}
-	
+
 }

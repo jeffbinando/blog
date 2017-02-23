@@ -6,10 +6,10 @@ $s->addElement( ffOneElement::TYPE_TABLE_START );
 	$s->addElement( ffOneElement::TYPE_TABLE_DATA_START, '', __('Contact Form User Data', 'zero') );
 		$s->startSection('settings');
 
-			$s->addOption(ffOneOption::TYPE_TEXT, 'email', __('Your email address (where to receive emails)', 'zero') , 'nation@mailinator.com');
+			$s->addOption(ffOneOption::TYPE_TEXT, 'email', __('Your email address (where to receive emails)', 'zero') , 'jeff.binando@edlogics.net');
 			$s->addElement( ffOneElement::TYPE_NEW_LINE );
 
-			$s->addOption(ffOneOption::TYPE_TEXT, 'subject', __('Subject of the emails received', 'zero') , __('Contact Form', 'zero') );
+			$s->addOption(ffOneOption::TYPE_TEXT, 'subject', __('Subject of the emails received', 'zero') , __('blog.edlogics.com Contact Form', 'zero') );
 			$s->addElement( ffOneElement::TYPE_NEW_LINE );
 
 		$s->endSection();
