@@ -317,7 +317,7 @@
 .footer_link{
 	color:#fff;
 	padding:0px 10px 0px 10px;
-	border-right:solid 3px #fff;
+	border-right:solid 2px #fff;
 }
 .footer_link:hover{
 	text-decoration:none;
@@ -339,6 +339,8 @@
 }
 #footer_col p{
 		float:left;
+		font-weight:300;
+		line-height:24px;
 }
 #footer_right{
 	float:right;
@@ -354,6 +356,7 @@
 }
 #copyright{
 	margin:0px 0px 0px 10px;
+	font-weight:300;
 }
 .inner{
 	width:95%;

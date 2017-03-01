@@ -34,18 +34,19 @@ if( $query->get('show') ) {
 	<div id="footer_bottom">
 		<div class="inner">
 		<div id="footer_col">
-			<a href="#" id="footer_logo" title="edlogics"></a>
+			<a href="http://www.edlogics.com/" id="footer_logo" title="edlogics.com"></a>
 			<div class="clear"></div>
 			<div id="map_icon"></div>
-			<p>214A 63rd Street <br> Virginia Beach, VA 23451</p>
+			<p>1741 Corporate Landing<br> Parkway, Suite 102<br>
+Virginia Beach, VA 23454</p>
 			<div class="clear"></div>
 		</div>
 		<div id="footer_right">
 			<a href="http://www.edlogics.com/" class="footer_link">Home</a>
 			<a href="http://www.edlogics.com/our-mission.html" class="footer_link">Our Mission</a>
-			<a href="http://www.edlogics.com/the-edlogics-solution.html" class="footer_link">Edlogics Solution</a>
-			<a href="/" class="footer_link">Blog</a>
-			<a href="/contact" class="footer_link last">Contact</a>
+			<a href="http://www.edlogics.com/the-edlogics-platform.html" class="footer_link">The Edlogics Platform</a>
+			<a href="http://www.edlogics.com/our-team.html" class="footer_link">Our Team</a>
+			<a href="http://www.edlogics.com/contact.html" class="footer_link last">Contact</a>
 			<div class="clear"></a>
 			<p id="copyright">Copyright &copy;2017 Edlogics. All Rights Reserved</p>
 		</div>

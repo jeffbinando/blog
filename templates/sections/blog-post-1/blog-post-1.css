@@ -469,6 +469,9 @@ input[type=submit]:hover, button[type=submit]:hover{
 .post-share__inner{
 	background:#20c2f8;
 }
+.post-content p{
+	margin-bottom:20px;
+}
 .post_subheader{
 	color:#555556;
 	font-size:25px;
