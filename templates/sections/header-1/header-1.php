@@ -11,7 +11,7 @@ $query = ffThemeOptions::getQuery('header');
 				<div class="vcenter">
 					<div class="logo-wrapper">
 						<h1>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="logo">
+							<a href="http://www.edlogics.com/" rel="home" class="logo">
 								<span class="logo__inner background-check">
 									<?php
 										if ( $query->getImage('logo-img-light-desktop')->url ){

@@ -1,7 +1,8 @@
 <?php
 get_header();
 
-?><main class="main"><?php
+?>
+<main class="main index_page"><?php
 
 	if ( have_posts() ){
 		while ( have_posts() ){
@@ -16,6 +17,6 @@ get_header();
 		get_template_part('templates/sections/404-1/404-1');
 	}
 
-?></main><?php
-
-get_footer();
+?>
+</main>
+<?php get_footer(); ?>

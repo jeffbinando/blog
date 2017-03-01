@@ -102,7 +102,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	opacity: 0;
 	position: absolute;
 	top: 20px;
-	left: 15px;	
+	left: 15px;
 
 	-webkit-transition: 0s visibility 0.3131s ease, 0.3131s opacity 0s ease;
 	-moz-transition: 0s visibility 0.3131s ease, 0.3131s opacity 0s ease;
@@ -116,7 +116,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	visibility: visible;
 	opacity: 1;
 	position: static;
-	
+
 	-webkit-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
 	-moz-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
 	-o-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
@@ -246,6 +246,20 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	vertical-align: middle;
 }
 
+/*My Styles
+@media ( min-width:769px and max-width: 1023px) {
+	.header-1.ff-section .logo-wrapper a{
+		padding:54px 20px !important;
+	}
+	.header-1.ff-section .menu-button{
+		padding:54px 20px !important;
+	}
+	.header-1.ff-section .logo-wrapper a span img{
+
+	}
+}*/
+
+
 /* ********** */
 /* RESPONSIVE */
 /* ********** */
@@ -358,7 +372,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 
 	.header-1.ff-section .menu-button__line-2 	{
 		top: 8px;
-		
+
 	}
 
 	.header-1.ff-section .menu-button__line-3 	{
@@ -394,7 +408,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	.header-1.ff-section .logo img.logo-desktop 	{
 		display: block;
 	}
-	
+
 }
 
 @media (min-width: 992px) {
@@ -441,5 +455,3 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	}
 
 }
-
-

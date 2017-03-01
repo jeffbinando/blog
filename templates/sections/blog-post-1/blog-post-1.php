@@ -1,5 +1,5 @@
 <?php
-
+$customFields = get_fields();
 wp_enqueue_script( 'zero-blog-post-1-js' );
 
 $postMetaGetter = ffContainer()->getThemeFrameworkFactory()->getPostMetaGetter();
@@ -39,6 +39,9 @@ if( is_page() ){
 								<?php the_title(); ?>
 							</a>
 						</h3>
+						  <?php if(get_field(post_subheader)){ ?>
+								<strong class="post_subheader"><?php the_field('post_subheader'); ?></strong>
+						<?php } ?>
 						<?php if( $query->get('show-read-more') ){ ?>
 						<div class="post-collapser">
 							<a class="read-more-button post-expand-toggle" href="<?php the_permalink(); ?>">

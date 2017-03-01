@@ -361,6 +361,9 @@ body.page .blog-post-1.ff-section .post-title 	{
 	float:left;
 	margin:0px 30px 0px 0px;
 }
+.blog-post-1.ff-section .post-title{
+	line-height:50px;
+}
 .blog-post-1.ff-section .post-title a{
 	color:#002e48;
 	font-size:46px;
@@ -466,6 +469,26 @@ input[type=submit]:hover, button[type=submit]:hover{
 .post-share__inner{
 	background:#20c2f8;
 }
+.post_subheader{
+	color:#555556;
+	font-size:25px;
+	display:block;
+	margin:20px 0px 20px 0px;
+	font-weight:400;
+	line-height:27px;
+}
+@media ( max-width: 1023px) {
+	.blog-post-1.ff-section .post-title a 	{
+		font-size:30px;
+	}
+	.post_subheader{
+		font-size:20px;
+		line-height:24px;
+	}
+	.blog-post-1.ff-section .post-title{
+		line-height:35px;
+	}
+}
 @media (max-width: 768px) {
 	.ac_left{
 		float:none;
@@ -478,6 +501,16 @@ input[type=submit]:hover, button[type=submit]:hover{
 	.ac_right{
 		float:none;
 		width:100%;
+	}
+	.blog-post-1.ff-section .post-title a 	{
+		font-size:27px;
+	}
+	.blog-post-1.ff-section .post-title {
+		line-height:27px;
+	}
+	.post_subheader{
+		font-size:18px;
+		line-height:22px;
 	}
 }
 /* ********** */

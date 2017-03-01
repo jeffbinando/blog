@@ -6,7 +6,7 @@
  */
 get_header(); ?>
 
-<main class="main smart_scroll_container">
+<main class="main home">
   <?php
 
   	if ( have_posts() ){
