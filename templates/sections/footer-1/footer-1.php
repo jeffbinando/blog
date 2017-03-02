@@ -44,11 +44,11 @@ Virginia Beach, VA 23454</p>
 		<div id="footer_right">
 			<a href="http://www.edlogics.com/" class="footer_link">Home</a>
 			<a href="http://www.edlogics.com/our-mission.html" class="footer_link">Our Mission</a>
-			<a href="http://www.edlogics.com/the-edlogics-platform.html" class="footer_link">The Edlogics Platform</a>
+			<a href="http://www.edlogics.com/the-edlogics-platform.html" class="footer_link">The EdLogics Platform</a>
 			<a href="http://www.edlogics.com/our-team.html" class="footer_link">Our Team</a>
 			<a href="http://www.edlogics.com/contact.html" class="footer_link last">Contact</a>
 			<div class="clear"></a>
-			<p id="copyright">Copyright &copy;2017 Edlogics. All Rights Reserved</p>
+			<p id="copyright">Copyright &copy;2017 EdLogics. All Rights Reserved</p>
 		</div>
 	</div>
 	<?php
