@@ -456,6 +456,9 @@ input[type=submit]:hover, button[type=submit]:hover{
 	float:right;
 	width:80%;
 }
+.ac_right a{
+	color:#20c2f8;
+}
 .ac_right .icon-user{
 	color:#13faab;
 }
