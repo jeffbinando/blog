@@ -127,8 +127,9 @@ if( is_page() ){
 						?></div>
 						<?php } ?>
 						<?php if( $post->post_type=='post' ){ ?>
-						<!-- <strong>Keep up to date by subscribing!</strong>
-						<?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?> -->
+						<strong>Never miss a post.</strong>
+						<p style="font-size:14px;">Subscribe now. Know when we publish our latest articles on health literacy, gamification, and healthcare.</p>
+						<?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
 						<div class="author_container">
 							<div class="ac_left">
 								<?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
